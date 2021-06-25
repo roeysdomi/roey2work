@@ -54,6 +54,10 @@
   font-weight: 500;
   margin:2px;
 }
+.lang-item:hover
+{
+  transform: scale(1.1);
+}
 .links
 {
   border-top:1.5px solid red;
@@ -69,6 +73,10 @@
   border-radius: 3px;
   padding: 6px;
   font-weight: 500;
+}
+.link-butt:hover
+{
+  transform: scale(1.1);
 }
 .project-pic
 {
