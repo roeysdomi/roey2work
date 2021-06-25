@@ -360,6 +360,7 @@
     height:100vh;
     background: linear-gradient(0deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%);
    padding :33px;
+   overflow: hidden;
   }
   .title-work
   {
@@ -468,6 +469,7 @@ right: 3vw;
   .con-contact
   {
     /* border:2px solid blue; */
+    overflow: hidden;
     width: 100%;
     height:120vh;
     background: linear-gradient(180deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%)
