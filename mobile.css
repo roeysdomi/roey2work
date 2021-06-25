@@ -19,7 +19,7 @@
     width:100vw;
     height:120vh;
     position: relative;
-    /* background: linear-gradient(180deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%) */
+    background: linear-gradient(180deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%)
   }
   .shapered
   {
@@ -130,7 +130,7 @@
     width: 100vw;
     height:110vh;
     overflow: hidden;
-    /* background: linear-gradient(0deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%) */
+    background: linear-gradient(0deg, #fdfbfb 0%, hsl(200deg 3% 87%) 100%)
   }
   .title-about
   {
