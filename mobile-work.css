@@ -497,4 +497,119 @@ border-bottom-left-radius: 40px;
   width: 134px;
    height: 304px;
 }
+/* -------------------shapes-------------------- */
+.sn1
+{
+  top: 8vw;
+  right: 64vw;
+}
+.sn2
+{
+  top: 30vw;
+  right: 17vw;
+}
+.sn3
+{
+  top: 68vh;
+  right: 83vw;
+}
+.sn4
+{
+  top: 88px;
+right: 36vw;
+  /* display:none; */
+
+}
+.sn5
+{
+  top: 27vw;
+    right: 58vw;
+    display:none;
+
+}
+.sn6
+{
+  top: 101px;
+  right: 322px;
+  background-color:green;
+  display:none;
+
+
+}
+.sn7
+{
+  top: 136vw;
+  right: 4vw;
+  /* display: none; */
+  /* display: none; */
+
+}
+.sn8
+{
+  top: 12vw;
+  right: 12vw;
+  display:none;
+
+}
+.sn9
+{
+  top: 54vw;
+right: 74vw;
+/* display: none; */
+  /* display:none; */
+
+}
+.sn10
+{
+  top: 191vw;
+  right: 15vw;
+  background-color: green;
+  /* display: none; */
+
+}
+.sn11
+{
+  top: -7vw;
+right: 13vw;
+
+  /* display:none; */
+
+}
+.sn12
+{
+  top: 22vw;
+  right: 66vw;
+  display:none;
+
+}
+.sn13
+{
+  top: -7vw;
+right: 82vw;
+/* display: none; */
+
+}
+.sn14
+{
+  top: 175vw;
+  right: 60vw;
+  /* display: none; */
+
+}
+.sn15
+{
+  top: 153vw;
+right: 41vw;
+background-color: green;
+
+  background-color:green;
+  /* display:none; */
+
+}
+.sn16
+{
+  top: -3vw;
+  right: 48vw;
+  /* display:none; */
+}
 }
