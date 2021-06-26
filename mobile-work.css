@@ -505,6 +505,7 @@ border-bottom-left-radius: 40px;
   display: flex;
   flex-direction: column;
   background-color: black;
+  justify-content: center;
   overflow:hidden;
   gap:2px;
 
