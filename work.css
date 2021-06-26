@@ -491,3 +491,41 @@ border-bottom-left-radius: 40px;
   width: 134px;
    height: 304px;
 }
+/* ------------------------------------github--------------------------------- */
+.pro-github
+{
+  width:100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  overflow:hidden;
+  gap:2px;
+
+}
+.github-logo
+{
+  /* border:2px solid red; */
+
+  width: 30%;
+  height: 70%;
+  overflow:hidden;
+  margin:auto;
+  margin-bottom: 2px;
+
+}
+.github-logo img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pro-github h1
+{
+  /* border:2px solid red; */
+  color:white;
+  font-size: 2rem;
+  margin:auto;
+  text-align: center;
+}
