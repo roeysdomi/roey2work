@@ -566,6 +566,10 @@ font-weight: bold;
 {
   color:#494949;
 }
+.bottombox .text .far
+{
+   font-size: 3rem;
+}
 /* -------------------shapes-------------------- */
 .sn1
 {

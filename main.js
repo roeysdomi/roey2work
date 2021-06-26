@@ -253,14 +253,20 @@ gsap.from('.tech h2', {
   opacity:0,
   y:50,
 })
-gsap.from('.pic-logo', {
+gsap.from('.con-skills .pic-logo',2, {
   repeat:-1,
   stagger: {
-    amount: 2.3
+    amount: 2,
+     from: "random"
   },
-
-  rotateZ: 360,
-})
+ // filter:"blur(10px
+ y:50,
+ yoyo:true,
+  yoyoEase:true,
+ // scale:0.3,
+ // from: "random"
+}
+)
 
 // -----------------------------------------------------------
 gsap.from('.title-work', {
