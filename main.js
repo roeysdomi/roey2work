@@ -253,14 +253,14 @@ gsap.from('.tech h2', {
   opacity:0,
   y:50,
 })
-// gsap.from('.pic-logo', {
-//   repeat:-1,
-//   stagger: {
-//     amount: 2.3
-//   },
-//
-//   rotateZ: 360,
-// })
+gsap.from('.pic-logo', {
+  repeat:-1,
+  stagger: {
+    amount: 2.3
+  },
+
+  rotateZ: 360,
+})
 
 // -----------------------------------------------------------
 gsap.from('.title-work', {
