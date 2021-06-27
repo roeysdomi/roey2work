@@ -442,9 +442,11 @@ gsap.from('.bottombox', {
   y:-100,
 })
 // ----------------------------------------------projects---------------------------------------
-gsap.from('.pics', {
+
+
+gsap.from(".pro-shlish .info", {
   scrollTrigger: {
-    trigger:'.pics',
+    trigger:'.pro-shlish .info',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
@@ -455,9 +457,9 @@ gsap.from('.pics', {
   x:200,
  opacity:0,
 })
-gsap.from('.info', {
+gsap.from(".pro-shlish .pics", {
   scrollTrigger: {
-    trigger:'.info',
+    trigger:'.pro-shlish .pics',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
@@ -468,9 +470,10 @@ gsap.from('.info', {
   x:-200,
  opacity:0,
 })
-gsap.from('.pro-shlish', {
+//
+gsap.from(".pro-ikea .info", {
   scrollTrigger: {
-    trigger:'.pro-shlish',
+    trigger:'.pro-ikea .info',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
@@ -478,78 +481,150 @@ gsap.from('.pro-shlish', {
     toggleActions: "play resume resume resume"
 
   },
- opacity:0.3,
+  x:200,
+ opacity:0,
 })
-gsap.from('.pro-ikea', {
+gsap.from(".pro-ikea .pics", {
   scrollTrigger: {
-    trigger:'.pro-ikea',
-    // markers:true,
-    // scrub: 1,
-    start:"top+50px 40%" ,
-    end: "top 40%",
-    toggleActions: "play resume resume resume"
-
-  },
-  opacity:0.3,
-
-})
-gsap.from('.pro-discord', {
-  scrollTrigger: {
-    trigger:'.pro-discord',
+    trigger:'.pro-ikea .pics',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
-    end: "top 40%",
+    end: "bottom 40%",
     toggleActions: "play resume resume resume"
 
   },
-  opacity:0.3,
+  x:-200,
+ opacity:0,
 })
-gsap.from('.pro-whatsapp', {
+//
+gsap.from(".pro-discord .info", {
   scrollTrigger: {
-    trigger:'.pro-whatsapp',
+    trigger:'.pro-discord .info',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
-    end: "top 40%",
+    end: "bottom 40%",
     toggleActions: "play resume resume resume"
 
   },
-  opacity:0.3,
+  x:200,
+ opacity:0,
 })
-gsap.from('.pro-instagram', {
+gsap.from(".pro-discord .pics", {
   scrollTrigger: {
-    trigger:'.pro-instagram',
+    trigger:'.pro-discord .pics',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
-    end: "top 40%",
+    end: "bottom 40%",
     toggleActions: "play resume resume resume"
 
   },
-  opacity:0.3,
+  x:-200,
+ opacity:0,
 })
-gsap.from('.pro-final', {
+gsap.from(".pro-instagram .info", {
   scrollTrigger: {
-    trigger:'.pro-final',
+    trigger:'.pro-instagram .info',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
-    end: "top 40%",
+    end: "bottom 40%",
     toggleActions: "play resume resume resume"
 
   },
-  opacity:0.3,
+  x:200,
+ opacity:0,
 })
-gsap.from('.pro-dirot', {
+gsap.from(".pro-instagram .pics", {
   scrollTrigger: {
-    trigger:'.pro-dirot',
+    trigger:'.pro-instagram .pics',
     // markers:true,
     // scrub: 1,
     start:"top 40%" ,
-    end: "top 40%",
+    end: "bottom 40%",
     toggleActions: "play resume resume resume"
 
   },
-  opacity:0.3,
+  x:-200,
+ opacity:0,
+})
+gsap.from(".pro-dirot .info", {
+  scrollTrigger: {
+    trigger:'.pro-dirot .info',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:200,
+ opacity:0,
+})
+gsap.from(".pro-dirot .pics", {
+  scrollTrigger: {
+    trigger:'.pro-dirot .pics',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:-200,
+ opacity:0,
+})
+gsap.from(".pro-whatsapp .info", {
+  scrollTrigger: {
+    trigger:'.pro-whatsapp .info',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:200,
+ opacity:0,
+})
+gsap.from(".pro-whatsapp .pics", {
+  scrollTrigger: {
+    trigger:'.pro-whatsapp .pics',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:-200,
+ opacity:0,
+})
+gsap.from(".pro-final .info", {
+  scrollTrigger: {
+    trigger:'.pro-final .info',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:200,
+ opacity:0,
+})
+gsap.from(".pro-final .pics", {
+  scrollTrigger: {
+    trigger:'.pro-final .pics',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:-200,
+ opacity:0,
 })
