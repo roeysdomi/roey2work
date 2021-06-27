@@ -442,6 +442,32 @@ gsap.from('.bottombox', {
   y:-100,
 })
 // ----------------------------------------------projects---------------------------------------
+gsap.from('.pics', {
+  scrollTrigger: {
+    trigger:'.pics',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:200,
+ opacity:0,
+})
+gsap.from('.info', {
+  scrollTrigger: {
+    trigger:'.info',
+    // markers:true,
+    // scrub: 1,
+    start:"top 40%" ,
+    end: "bottom 40%",
+    toggleActions: "play resume resume resume"
+
+  },
+  x:-200,
+ opacity:0,
+})
 gsap.from('.pro-shlish', {
   scrollTrigger: {
     trigger:'.pro-shlish',
