@@ -454,7 +454,6 @@ gsap.from(".pro-shlish .info", {
     toggleActions: "play resume resume resume"
 
   },
-  width:"50%",
   x:200,
  opacity:0,
 })
