@@ -657,3 +657,7 @@ background-color:green;
   top: -3vw;
   right: 48vw;
 }
+.pro-github > a
+{
+  margin: auto;
+}
